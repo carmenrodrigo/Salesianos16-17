@@ -1,0 +1,24 @@
+#include<iostream>
+int main(){
+  int matrix[3][3];
+  int fil,col,salir;
+  //el primer bucle sirve par ameter los datos
+  for(fil=0;fil<3;fil++){
+    for(col=0;col<3;col++){
+      std::cout<<"elemento("<<fil<<","<<col<<")=";
+      std::cin>>matrix[fil][col];
+    }
+  }
+  //el segundo bucle sirve para que salga la matriz por pantalla
+  std::cout<<"\nLa matriz que has introducido es: \n";
+  for(fil=0;fil<3;fil++){
+    for(col=0;col<3;col++){
+      std::cout>>matrix[fil][col];
+    }
+    //para que salga en forma de matriz
+    std::cout<<"\n";
+  }
+  std::cin>>salir;
+  return 0;
+}
+
