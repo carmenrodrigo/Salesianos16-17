@@ -1,0 +1,22 @@
+//Matriz de 0 y 1
+#include<iostream>
+#include<stdlib.h>
+#include<time.h>
+int main(){
+    int matrix[3][3];
+    int fil, col, salir;
+    int num;
+    srand(time(0));
+    std::cout<<"\nLa matriz que has introducido es: \n";
+    for(fil=0;fil<3;fil++){
+      for(col=0;col<3;col++){
+        matrix[fil][col]=rand()%2;
+        std::cout<<matrix[fil][col]<<" ";// Esto " " es para que quede espacio 
+      }
+      //retorno de carro se debe de poner en la misma línea que fil
+      std::cout<<'\n';
+    }
+    std::cin>>salir;
+    return 0;
+}
+      
