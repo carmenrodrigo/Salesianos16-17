@@ -1,0 +1,22 @@
+//este programa sirve para sacar números aleatorios
+#include<iostream>
+#include<stdlib.h>
+#include<time.h>
+//time.h sirve para coger el numero de segundos desde que has encendido el ordenador desde una fecha fija
+//también contiende las funciones relacionadas con el tiempo
+int main(){
+  int cont, num;
+  int salir;
+  int semilla;
+  //semilla es un número entero que relleno con los segundos transcurridos desde una fecha fija
+  semilla=time(0);
+  //time es el tiempo de referencia que usan todos los ordenadores
+  srand(semilla);
+  //srand es la funcion que nos permite decir porque página empezar a leer
+    for (cont=0;cont<10;cont++){
+      num=rand()%10+1;
+      std::cout<<num<<" ";
+    }
+  std::cin>>salir;
+  return 0;
+}
