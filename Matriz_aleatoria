@@ -1,12 +1,17 @@
 #include<iostream>
-#include<stdlib>
+#include<stdlib.h>
+//la librería stdlib.h sirve para poder utilizar rad
+//matriz en la que los numeros son aleatorios
 int main(){
   int matrix[3][3];
   int fil,col;
   int num;
   for(fil=0;fil<3;fil++){
     for(col=0;col<3;col++){
+      //sacar numero aleatorio
+      //rand es la función para el número aleatorio
       num=rand();
+      //y los números que sacara estarán entre esos
       std::cout<<num<<" ";
       //matrix[fil][col]= num;
     }
