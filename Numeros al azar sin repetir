@@ -1,0 +1,30 @@
+//Salen 9 numeros en fila al azar sin repetir
+#include<iostream>
+#include<stdlib.h>
+#include<time.h>
+
+using namespace std; //Esto se coloca para no tener que poner todo el rato std cuando se requiera
+
+bool checkrep(int n, int matriz[]) //bool es una función que retorna falso y verdadero
+{
+    for(int i=0; i<9; i++)
+        if(n == matriz[i])
+            return true;
+    return false;
+}
+
+int main(){
+	int salir;
+    srand(time(0));
+    int n, matriz[9];
+    for(int i=0; i<9; i++){
+        do
+            n = 1 + rand() % 9;
+        while(checkrep(n, matriz));
+        matriz[i] = n;
+        cout << matriz[i] << "  ";
+        
+    }
+    cin>>salir;
+    return 0;
+}
