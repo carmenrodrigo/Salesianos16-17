@@ -1,3 +1,4 @@
+//Slen 8 numeros en forma de matriz, sin repetir
 #include<iostream>
 #include<stdlib.h>
 #include<time.h>
