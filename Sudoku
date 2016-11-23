@@ -1,3 +1,6 @@
+#include<iostream>
+#include<stdlib.h>
+#include<time.h>
 int main(){
     int fil,col;
     int fil2,col2;
