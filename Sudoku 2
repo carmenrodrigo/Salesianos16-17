@@ -1,0 +1,42 @@
+#include<iostream>
+#inlcude<stdlib.h>
+#include<time.h>
+char esta_repetido(int num, int matriz [][3]){
+     int fil2,col2;
+     char sirve;
+     sirve ='s';
+     for(fil2=0;fil2<3;fil2++)
+        for(col2=0;col2<3;col2++)
+           if(num==matriz[fil2][col2])sirve='n';
+     return sirve;
+     
+}
+char compruebo_sale_3(int num){
+     char sirve;
+     if(num==3) sirve ='n';
+     return sirve;
+
+}
+int main(){
+    int fil,col;
+    int num,salir;
+    int sale;
+    char sirve='s';
+    int matriz [3][3];
+    srand (time(0));
+    for(fil=0;fil<3;fil++){
+        for(col=0;col<3;col++){
+           //do-while; en caso de que este repetido el numero, vuelve a sacar otro
+           do{
+              num=rand()%9+1;
+           }while(esta_repetido(num,matriz)=='n'&& compruebo_sale_3(num)=='n');
+           matriz[fil][col]=num;
+           sirve='s';
+           std::cout<<matriz[fil][col];
+        }
+        std::cout<<"\n";
+    }
+    std::cin>>salir;
+    return 0;
+}
+           
