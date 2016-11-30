@@ -1,0 +1,11 @@
+pag 129 ruta relativa, y ruta absoluta, mirar para el examen
+//Ruta absoluta indicamos la ruta de las carpetas y el fichero donde se guarde empezando por la letra de la unidad
+//Ruta relativa, es una posicion relativa con respecto a la carpetas en la que estaos trabajando en este momento.
+La ruta absoluta es una indicacion con precisión dentro de el arbol de carpetas o subcarpetas de en que puntos queremos guardar un fichero
+//ofstream es para ir a la ram y reservar un trozo de memoria para un fichero
+//fstream contiende las funciones que nos van a permitir escribir dentro del fichero de texto (ej.bloc de notas)(.txt)
+#include<fstream>
+int main(){
+  ofstream fichero("prueba.txt);
+  
+  
