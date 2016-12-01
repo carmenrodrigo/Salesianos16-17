@@ -1,4 +1,10 @@
 pag 129 ruta relativa, y ruta absoluta, mirar para el examen
+//Hay que ir a cmd para ver los ficheros
+//Guardar todo en bloc de notas
+//Se usa "dir" para ver todos los directorios de una carpeta
+//Usamos "cd.." para bajar de carpeta
+//Se usa "cd usuarios" para subir de carpeta
+//Si pones "help" te sale toda la ayuda, segun silvia muchas cosas.
 //Ruta absoluta indicamos la ruta de las carpetas y el fichero donde se guarde empezando por la letra de la unidad
 //Ruta relativa, es una posicion relativa con respecto a la carpetas en la que estaos trabajando en este momento.
 La ruta absoluta es una indicacion con precisión dentro de el arbol de carpetas o subcarpetas de en que puntos queremos guardar un fichero
