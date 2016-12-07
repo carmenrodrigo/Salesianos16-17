@@ -9,9 +9,23 @@ pag 129 ruta relativa, y ruta absoluta, mirar para el examen
 //Ruta relativa, es una posicion relativa con respecto a la carpetas en la que estaos trabajando en este momento.
 La ruta absoluta es una indicacion con precisión dentro de el arbol de carpetas o subcarpetas de en que puntos queremos guardar un fichero
 //ofstream es para ir a la ram y reservar un trozo de memoria para un fichero
-//fstream contiende las funciones que nos van a permitir escribir dentro del fichero de texto (ej.bloc de notas)(.txt)
-#include<fstream>
-int main(){
-  ofstream fichero("prueba.txt);
+//f//reserva en el cuerpo principal un espacio para el fichero
+//.txt texto
+//.docx para word mas reciente 
+//.odt openoffice
+//.jpg imagen
+//.mp3 audio
+//.zip fichero comprido mas antiguo que rar
+//.rar fichero comprido
+//.mpeg4 video 
+//.exe ejecutable; 
+//.cvs calendario
+//.html cualquier página web
+//.cpp compilable como txt, se abre con un editor, es un código fuente
+//Llamamos ficheros bineros a aquellos que me puedo inventar, por ejemplo
+//Las terminaciones tienen un icono y un hueco en la memoria. También el programa con el que se abre.
+//Cada vez que se quiero escribir en el fichero escribo
+//Endl es la intruccion especifica para el retorno de carrostream contiende las funciones que nos van a permitir escribir dentro del fichero de texto (ej.bloc de notas)(.txt)
+    
   
   
