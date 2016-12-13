@@ -7,7 +7,8 @@ pag 129 ruta relativa, y ruta absoluta, mirar para el examen
 //Si pones "help" te sale toda la ayuda, segun silvia muchas cosas.
 //Ruta absoluta indicamos la ruta de las carpetas y el fichero donde se guarde empezando por la letra de la unidad
 //Ruta relativa, es una posicion relativa con respecto a la carpetas en la que estaos trabajando en este momento.
-La ruta absoluta es una indicacion con precisión dentro de el arbol de carpetas o subcarpetas de en que puntos queremos guardar un fichero
+La ruta absoluta es una indicacion con precisión dentro de el arbol de carpetas o subcarpetas de en que puntos
+queremos guardar un fichero
 //ofstream es para ir a la ram y reservar un trozo de memoria para un fichero
 //f//reserva en el cuerpo principal un espacio para el fichero
 //.txt texto
@@ -25,7 +26,9 @@ La ruta absoluta es una indicacion con precisión dentro de el arbol de carpetas
 //Llamamos ficheros bineros a aquellos que me puedo inventar, por ejemplo
 //Las terminaciones tienen un icono y un hueco en la memoria. También el programa con el que se abre.
 //Cada vez que se quiero escribir en el fichero escribo
-//Endl es la intruccion especifica para el retorno de carrostream contiende las funciones que nos van a permitir escribir dentro del fichero de texto (ej.bloc de notas)(.txt)
+//Endl es la intruccion especifica para el retorno de carrostream contiende las funciones que nos van a permitir escribir dentro
+del fichero de texto (ej.bloc de notas)(.txt)
+http://www.cplusplus.com/doc/tutorial/files/
     
   
   
