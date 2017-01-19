@@ -8,3 +8,27 @@ int main(){
   getchar();
   return 0;
 }
+
+//No sale la variable sale la dirección de memoria en la que se encuentra
+#include<stdio.h>
+int main(){
+  int x;
+  int a, b; //x=nombre de la variable
+  a = 1; //valor de la varialbe
+  b = 2;
+  printf("Direccion de la variable x = %x", &a); // & para direccion de memoria en RAM
+  printf("Direccion de la variable y = %x", &b);
+  getchar();
+  getchar();
+  return 0;
+}
+
+DESCRIPTORES
+  %d enteros 
+  %c letras
+  %f decimales
+  %X dirección de memoria
+
+
+
+
