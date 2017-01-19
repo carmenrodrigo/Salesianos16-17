@@ -1,17 +1,1 @@
-#include<stdio.h>
-int main(){
-  int x;
-  int a, b;
-  a = 1;
-  b = 2;
-  printf("Direccion de la variable x = %x", &a);
-  printf("Direccion de la variable y = %x", &b);
-  getchar();
-  getchar();
-  return 0;
-}
 
-DESCRIPTORES
-  %d enteros 
-  %c letras
-  %f decimales
