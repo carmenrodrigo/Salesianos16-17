@@ -1,0 +1,10 @@
+//Introduces un número y te sale ese mismo número
+#include<stdio.h>
+int main(){
+  printf("Introduce x = ");
+  scanf("%d" , &x);
+  printf("La variable x = %d, x);
+  getchar();
+  getchar();
+  return 0;
+}
