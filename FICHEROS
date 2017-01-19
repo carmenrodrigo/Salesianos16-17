@@ -51,7 +51,19 @@ int main(){
 }
 
 
-
+#include<stdio.h>
+int main(){
+  int a;
+  int *pa;
+  a = 2;
+  pa=&a; //puntero que apunta a A. El * es para guardar la dirección de A
+  printf("a=%d",a);
+  printf("\n dirección de la variable a=%x", &a);
+  printf("\n pa%x",pa);
+  getchar();
+  getchar();
+  return 0;
+}
 
 
 
