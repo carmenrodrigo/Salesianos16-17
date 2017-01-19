@@ -1,0 +1,10 @@
+//Para saber la dirección
+#include<stdio.h>
+int main(){
+  int x;
+  x = 18;
+  printf("%x", &x);
+  getchar();
+  getchar();
+  return 0;
+}
