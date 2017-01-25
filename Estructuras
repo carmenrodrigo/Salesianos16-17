@@ -1,0 +1,33 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int salir;
+    struct alumno{
+               string nombre;
+               int edad;
+    };
+    alumno infor[30];//infor es un array de alumnos cada unos con su nombre y con su edad
+    infor[0].nombre="Carmen";
+    infor[0].edad=17;
+    cout<<"El alumno se llama," <<infor[0].nombre;
+    cout<<"\nEl alumno tiene "<<infor[0].edad<<" anos";
+    cin>>salir;
+    return 0;
+}
+
+#include<iostream>
+using namespace std;
+int main(){
+    int salir;
+struct {//Para guardar varios datos en posiciones contiguas
+            string nombre; //string es para guardar un grupo de letras
+            int edad; //string e int son los campos de la estructura 
+            // se pone float si quiero poner números decimales
+    }alumno;
+    alumno.nombre="Marcocos";
+    alumno.edad=204;
+    std::cout<<"El alumno se llama: "<< alumno.nombre;
+    std:cout<<" y tiene " << alumno.edad << " meses de edad ";
+    std::cin>>salir;
+    return 0;
+}
