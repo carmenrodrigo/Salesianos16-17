@@ -31,3 +31,24 @@ struct {//Para guardar varios datos en posiciones contiguas
     std::cin>>salir;
     return 0;
 }
+//Meter varios datos
+#include<iostream>
+using namespace std;
+int main(){
+    int salir;
+    struct amigo{
+               string nombre;
+               float telefono;//porque el telefono es demasiado grande para int
+    };
+    amigo lista[3];
+    int cont;
+    for(cont=0;cont<3;cont++){
+                              cout<<"Dime tu nombre ";
+                              cin>> lista[cont].nombre;//despues del punto se pone donde se guardaria el dato
+                              cout<<"\nEl telefono ";
+                              cin>>lista[cont].telefono;
+    }
+    
+    cin>>salir;
+    return 0;
+}
