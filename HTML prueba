@@ -13,4 +13,29 @@
 http://www.color-hex.com/color-wheel/ //Se usa para saber que color coger
 <img src="nombre de la imagen"> //guardar siempre la imagen donde se guarde el documento de html
 <h1>(Aqui se insertaria el título)</h1> //tamaños de los titulos (hasta el 6) 1>6
+<ul> Para realizar una lista desordenada
 
+
+<html>
+	<head>
+		<title> Cancioncitas </title>
+		<meta charset="UTF-8"> 
+	</head>
+	<body>
+		<h1> Despacito </h1>
+		<div>
+			<ol > 
+				<li> <h2> Levantarme </h2> </li>
+					<ol> 
+						<li> <h3> Retirar la ropa de la cama </h3> </li>
+						<li> <h3> Incorpar el tronco  </h3> </li>
+							<ol>
+								<li> <h4> Mato el despertador </h4> </li>
+							</ol>
+					</ol>
+				<li> <h2> Morir lentamente </h2> </li>
+			</ol>
+		</div>
+	</body>
+</html>
+<!--Como hacer una lista desordenada> <!--Se usa div>
