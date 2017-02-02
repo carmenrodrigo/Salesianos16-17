@@ -39,3 +39,49 @@ http://www.color-hex.com/color-wheel/ //Se usa para saber que color coger
 	</body>
 </html>
 <!--Como hacer una lista desordenada> <!--Se usa div>
+
+
+<table border="1"> <!--adsad-->
+			<tr> <!--Filas-->
+				<td> A </td> <!--Columnas-->
+				<td> B </td>
+				<td> C </td>
+			</tr>
+			<tr> <!--Filas-->
+				<td> D </td> <!--Columnas-->
+				<td> E </td>
+				<td> F </td>
+			</tr>
+			<tr> <!--Filas-->
+				<td> G </td> <!--Columnas-->
+				<td> H </td>
+				<td> I </td>
+			</tr>
+		</table>
+		
+		
+	<html>
+	<head>
+		<title> Cancioncitas </title>
+		<meta charset="UTF-8"> 
+	</head>
+	<body bgcolor="#275e96" > <!--colspam, para fusionar celdas-->
+		<table border="1"> <!--adsad-->
+			<tr> 
+				<td colspan="2"> perro </td>
+				<td> 1 </td>
+			</tr>
+			<tr>	
+				<td> A </td>
+				<td colspan="2"> venga </td> <!--colspan para fusionar filas-->
+			</tr>
+			<tr>
+				<td colspan="2"> casa </td>
+				<td rowspan="2"> tú </td> <!--rowspan se coloca en el primer elemento para fusionar las columnas-->
+			</tr> 
+			<tr>
+				<td colspan="2"> vale </td>
+			
+		</table>
+	</body>
+</html>
