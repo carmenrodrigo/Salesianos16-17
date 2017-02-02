@@ -85,3 +85,59 @@ http://www.color-hex.com/color-wheel/ //Se usa para saber que color coger
 		</table>
 	</body>
 </html>
+
+
+//Ejercicio completo con los colores de la tabla medio cambiados en filas y no en columnas ni por separado
+
+<html>
+	<head>
+		<title> Cancioncitas </title>
+		<meta charset="UTF-8"> 
+		<style>
+
+		table#t01 tr:nth-child(even) {
+ 		background-color: #d447ff;
+		}
+		table#t01 tr:nth-child(odd) {
+		background-color:#65ff47;
+		}
+		table#t01 tr:nth-child(){
+   		background-color:#ff4b47;
+   		;
+	
+		</style>
+	</head>
+	<body bgcolor="#275e96" > <!--colspam, para fusionar celdas-->
+		<h1> Despacito </h1>
+		<div>
+			<ol> 
+				<li> <h2> Levantarme </h2> </li>
+				<ol> 
+					<li> <h3> Retirar la ropa de la cama </h3> </li>
+					<li> <h3> Incorpar el tronco  </h3> </li>
+						<ol>
+							<li> <h4> Mato el despertador </h4> </li>
+						</ol>
+				</ol>
+				<li> <h2> Morir lentamente </h2> </li>
+			</ol>
+		</div>
+		
+		<table border="1" id="t01"> <!--adsad--> <!-- id=01, se usa para poder editar la tabla arriba-->
+			<tr> 
+			<td colspan="2"> perro </td> <!-- colspan, se usa para fusionar as filas-->
+			<td> 1 </td>
+			</tr>
+			<tr>	
+			<td> A </td>
+			<td colspan="2"> venga </td> 
+			</tr>
+			<tr>	
+			<td colspan="2"> casa </td>
+			<td rowspan="2"> tú </td> <!--rowspan, se coloca en el primer elemento para fusionar las columnas-->
+			</tr> 
+			<tr>
+			<td colspan="2"> vale </td>
+		</table>
+	</body>
+</html>
