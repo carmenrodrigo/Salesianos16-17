@@ -94,7 +94,7 @@ http://www.color-hex.com/color-wheel/ //Se usa para saber que color coger
 		<title> Cancioncitas </title>
 		<meta charset="UTF-8"> 
 		<style>
-
+		<!--Esto es CSS -->
 		table#t01 tr:nth-child(even) {
  		background-color: #d447ff;
 		}
@@ -139,5 +139,9 @@ http://www.color-hex.com/color-wheel/ //Se usa para saber que color coger
 			<tr>
 			<td colspan="2"> vale </td>
 		</table>
+		<img src ="http://cdn01.ib.infobae.com/adjuntos/162/imagenes/014/014/0014014674.jpg">		<!--sourc, src se usa para poner una imagen--> <!--Lo poner directamente copiando y pegando la ruta de la imagen-->
+		<img src ="hamster.jpg"> <!--Pones la imagen desde el mismo lugar donde tienes el documento guardado y solo tienes que poner el nombre con el que lo guardaste-->
+		<a href="https://google.com"> Enlace </a> <!--Esto se usa para poner un hipervínculo-->
+	
 	</body>
 </html>
